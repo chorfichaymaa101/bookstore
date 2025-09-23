@@ -28,10 +28,10 @@ To run the project locally:
 
 ```bash
 # Clone the repository
-git clone <YOUR_GIT_URL>
+git clone https://github.com/chorfichaymaa101/bookstore.git
 
 # Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
+cd bookstore
 
 # Install dependencies
 npm install
