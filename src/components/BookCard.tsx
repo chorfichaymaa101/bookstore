@@ -73,17 +73,7 @@ export function BookCard({ book, variant = "default" }: BookCardProps) {
               </Badge>
             )}
 
-            {/* Wishlist Button */}
-            <Button
-              variant="ghost"
-              size="sm"
-              className="absolute top-2 right-2 sm:top-3 sm:right-3 h-7 w-7 sm:h-8 sm:w-8 p-0 rounded-full bg-white/30 hover:bg-white/50 transition"
-              onClick={handleWishlist}
-            >
-              <Heart 
-                className={`h-3.5 w-3.5 sm:h-4 sm:w-4 ${isWishlisted ? "text-red-500 fill-red-500" : "text-white"}`} 
-              />
-            </Button>
+          
 
             {/* Quick Add to Cart Overlay */}
             <div className="absolute inset-0 bg-black/30 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
@@ -101,7 +91,7 @@ export function BookCard({ book, variant = "default" }: BookCardProps) {
           {/* Book Info */}
           <div className="p-3 sm:p-4">
             {/* Category */}
-            <Badge variant="secondary" className="mb-1 sm:mb-2 text-[10px] sm:text-xs bg-primary/20 text-primary">
+            <Badge variant="secondary" className="mb-1 sm:mb-2 text-[10px] sm:text-xs bg-primary text-white">
               {book.category}
             </Badge>
 
