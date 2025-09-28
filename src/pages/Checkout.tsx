@@ -305,7 +305,7 @@ export default function Checkout() {
         <DialogContent>
           <DialogHeader>
             <DialogTitle>Confirm Your Order</DialogTitle>
-            <DialogDescription>
+            <DialogDescription className="text-gray">
               Please confirm that you want to submit your order.
             </DialogDescription>
           </DialogHeader>
