@@ -242,16 +242,16 @@ export default function Home() {
       <CardHeader className="relative z-10">
         <div className="relative mx-auto mb-6">
           <div className="w-16 h-16 rounded-full flex items-center justify-center bg-gradient-to-br from-primary/15 to-secondary/15 group-hover:from-primary/25 group-hover:to-secondary/25 transition">
-            <feature.icon className="h-7 w-7 text-primary group-hover:text-white group-hover:scale-110 transition-all duration-300" />
+            <feature.icon className="h-7 w-7 text-primary  group-hover:scale-110 transition-all duration-300" />
           </div>
         </div>
-        <CardTitle className="text-xl font-semibold text-muted-foreground group-hover:text-white transition-colors duration-300">
+        <CardTitle className="text-xl font-semibold text-muted-foreground transition-colors duration-300">
           {feature.title}
         </CardTitle>
       </CardHeader>
       
       <CardContent className="relative z-10">
-        <CardDescription className="text-sm sm:text-base text-muted-foreground group-hover:text-white leading-relaxed transition-colors duration-300">
+        <CardDescription className="text-sm sm:text-base text-muted-foreground  leading-relaxed transition-colors duration-300">
           {feature.description}
         </CardDescription>
       </CardContent>
