@@ -10,8 +10,8 @@ The app features:
 - Dark mode toggle and responsive design
 ![Book Page Screenshot](assets/bookpage.png)
 - Category browsing and book filtering
+![Book browsing books Page Screenshot](assets/bookbrowsing.png)
 ![Category browsing Page Screenshot](assets/categorybrowsing.png)
-![Featured books Page Screenshot](assets/featuredbooks.png)
 - Add-to-cart functionality with dynamic cart count  
 ![Cart Page Screenshot](assets/bookcart.png)
 - Checkout and order confirmation pages  
