@@ -7,10 +7,15 @@ It allows users to browse books, filter by category and price, add items to a sh
 
 The app features:
 
-- Dark mode toggle and responsive design  
-- Category browsing and book filtering  
+- Dark mode toggle and responsive design
+![Book Page Screenshot](assets/bookpage.png)
+- Category browsing and book filtering
+![Category browsing Page Screenshot](assets/categorybrowsing.png)
+![Featured books Page Screenshot](assets/featuredbooks.png)
 - Add-to-cart functionality with dynamic cart count  
+![Cart Page Screenshot](assets/bookcart.png)
 - Checkout and order confirmation pages  
+![Checkout Page Screenshot](assets/bookcheckout.png)
 - Reusable UI components (buttons, inputs, tabs, tooltips, alerts, etc.)  
 - State management using React Context API  
 
